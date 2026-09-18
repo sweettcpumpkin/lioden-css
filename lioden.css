@@ -213,3 +213,32 @@ footer,
 .container-fluid {
     color: #4f3b5f;
 }
+
+
+/* FIX THE ORANGE NOTIFICATION HEADER */
+.panel .table > thead > tr > th,
+.panel .table > tbody > tr > th,
+table thead th {
+    background: #cdb5da !important;
+    background-image: none !important;
+    color: #56396b !important;
+    border-color: #d8c5e3 !important;
+}
+
+/* Notification table specifically */
+.table thead,
+.table thead tr,
+.table thead th {
+    background-color: #cdb5da !important;
+    background-image: none !important;
+}
+
+/* Remove any orange warning styling */
+.alert-warning,
+.bg-warning,
+.warning {
+    background-color: #e7d9ed !important;
+    background-image: none !important;
+    color: #56396b !important;
+    border-color: #cdb5da !important;
+}
