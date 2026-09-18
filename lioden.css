@@ -1,244 +1,215 @@
-/* =================================
-   SIMPLE PALE LAVENDER LIODEN THEME
-   ================================= */
+/* =========================================
+   LAVENDER THEME - FINAL OVERRIDES
+   ========================================= */
 
-/* Page */
+/* PAGE BACKGROUND */
+html,
 body {
     background: #eee8f5 !important;
-    color: #4d4058 !important;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
+    color: #4f3b5f !important;
 }
 
-/* Links */
-a:link,
+/* MAIN PAGE */
+.container.main {
+    background: #eee8f5 !important;
+}
+
+/* MAIN CONTENT AREA */
+.container.main .row,
+.container.main .col-md-8,
+.container.main .col-md-4,
+.container.main .col-sm-8,
+.container.main .col-sm-4 {
+    background: transparent !important;
+}
+
+/* ALL PANELS */
+.panel,
+.panel-default,
+.panel-body,
+.panel-heading,
+.panel-footer {
+    border-color: #d8c5e3 !important;
+}
+
+.panel {
+    background: #faf7fc !important;
+    border-radius: 14px !important;
+    box-shadow: none !important;
+}
+
+.panel-heading {
+    background: #d8c5e3 !important;
+    color: #5b3b70 !important;
+    border-radius: 13px 13px 0 0 !important;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #654276 !important;
+}
+
+/* LINKS */
+a,
 a:visited {
     color: #70458a !important;
 }
 
 a:hover {
-    color: #9569ad !important;
+    color: #8d5eaa !important;
 }
 
-/* Main container */
-.container.main {
-    background: #f8f5fb !important;
-    border: 1px solid #d8c9e2 !important;
-    box-shadow: none !important;
-    border-radius: 12px !important;
-}
-
-/* Inputs */
-input,
-select,
-textarea {
-    background: #fcfaff !important;
-    border: 1px solid #cdbbd8 !important;
-    border-radius: 7px !important;
-    box-shadow: none !important;
-    color: #4d4058 !important;
-}
-
-/* Top bar */
-.topbar {
-    background: #cbb5d8 !important;
-    color: #513861 !important;
-    border: 1px solid #bba2ca !important;
-    box-shadow: none !important;
-    border-radius: 0 0 10px 10px;
-}
-
-/* Navigation bar */
-.navbar {
-    background: #b99acb !important;
-    border: none !important;
-    border-radius: 10px 10px 0 0;
-}
-
-.navbar li a {
-    color: #ffffff !important;
-}
-
-.navbar li a:hover {
-    background: #a982bd !important;
-    color: #ffffff !important;
-    border-radius: 6px;
-}
-
-/* Breadcrumb */
-.breadcrumb {
-    background: #f3edf7 !important;
-    color: #654875 !important;
-    border: 1px solid #d5c3df !important;
-    border-radius: 8px !important;
-}
-
-.breadcrumb .active {
-    color: #654875 !important;
-}
-
-/* Alerts */
+/* NOTIFICATION / ALERT BOXES */
 .alert,
+.alert-info,
+.alert-success,
 .alert-warning,
 .alert-danger {
-    background: #e6d9ed !important;
-    border: 1px solid #d2c0dc !important;
-    color: #594066 !important;
-    border-radius: 8px !important;
-}
-
-/* Main heading */
-h1 {
-    font-size: 32px;
-    color: #674579 !important;
-    background: none !important;
-    text-align: center;
-}
-
-/* Other headings */
-h2 {
-    color: #704b82 !important;
-}
-
-h3 {
-    color: #704b82 !important;
-}
-
-.sidebar h3 {
-    background: transparent !important;
-    color: #704b82 !important;
-    font-size: 20px !important;
-}
-
-/* Panels */
-.panel {
-    background: #faf8fc !important;
-    border: 1px solid #d5c5df !important;
-    color: #4d4058 !important;
+    background: #e7d9ed !important;
+    border-color: #cdb2da !important;
+    color: #573c68 !important;
     border-radius: 10px !important;
-    box-shadow: none !important;
 }
 
-/* Buttons */
+/* TABLES */
+.table,
+table {
+    background: #faf7fc !important;
+    color: #4f3b5f !important;
+    border-color: #d8c5e3 !important;
+}
+
+.table th,
+table th {
+    background: #cdb5da !important;
+    color: #56396b !important;
+    border-color: #d8c5e3 !important;
+}
+
+.table td,
+table td {
+    background: #faf7fc !important;
+    border-color: #e0d3e7 !important;
+}
+
+/* TOP BAR */
+.topbar {
+    background: #cbb0d8 !important;
+    color: #513665 !important;
+}
+
+/* NAVIGATION */
+.navbar {
+    background: #b995c9 !important;
+    border-color: #a982b9 !important;
+}
+
+.navbar a,
+.navbar-nav > li > a {
+    color: #493157 !important;
+}
+
+/* BREADCRUMBS */
+.breadcrumb {
+    background: #e4d7eb !important;
+    border-radius: 8px !important;
+    color: #60436f !important;
+}
+
+/* BUTTONS */
 .btn,
-button.button,
-.btn-default,
+button,
 input[type="submit"],
 input[type="button"] {
-    background: #ad8bc2 !important;
-    border: 1px solid #9672aa !important;
-    border-radius: 8px !important;
-    text-shadow: none !important;
+    background: #ad86c1 !important;
+    background-image: none !important;
+    border-color: #9870ad !important;
     color: #ffffff !important;
+    border-radius: 9px !important;
+    box-shadow: none !important;
 }
 
 .btn:hover,
-button.button:hover,
-.btn-default:hover,
+button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
-    background: #9569ad !important;
+    background: #9870ad !important;
+    border-color: #805a98 !important;
+}
+
+/* PROGRESS BARS */
+.progress {
+    background: #ded2e5 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+}
+
+.progress-bar {
+    background: #ad86c1 !important;
+    background-image: none !important;
+    border-radius: 12px !important;
+    color: #493157 !important;
+}
+
+/* SIDEBAR BOXES */
+.sidebar,
+.sidebar .panel,
+.col-md-4 .panel {
+    background: #faf7fc !important;
+    border-color: #d8c5e3 !important;
+}
+
+/* INPUTS */
+input,
+textarea,
+select {
+    background: #fdfaff !important;
+    border: 1px solid #cdb5da !important;
+    color: #4f3b5f !important;
+    border-radius: 7px !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #a77bbb !important;
+    outline: none !important;
+}
+
+/* COMMENTS BOX */
+.comment,
+.comments,
+.comment-box {
+    background: #faf7fc !important;
+    border-color: #cdb5da !important;
+    border-radius: 12px !important;
+}
+
+/* FOOTER */
+footer,
+.footer {
+    background: #d8c5e3 !important;
+    color: #5b3b70 !important;
+}
+
+/* REMOVE GREEN/TEAL FROM COMMON BOOTSTRAP ELEMENTS */
+.bg-success,
+.bg-info,
+.bg-primary,
+.label-success,
+.label-info,
+.label-primary {
+    background-color: #ad86c1 !important;
     color: #ffffff !important;
 }
 
-/* Progress bars */
-.progress {
-    background: #e2d8e8 !important;
-    color: #4d4058 !important;
-    border-radius: 8px !important;
-    box-shadow: none !important;
-}
-
-.progress-bar,
-.progress-bar-danger,
-.progress-bar-success {
-    background: #ad8bc2 !important;
-    border-radius: 8px !important;
-}
-
-.progress div {
-    color: #4d4058 !important;
-    font-weight: bold;
-}
-
-/* Tables */
-.table {
-    background: #faf8fc !important;
-    border: 1px solid #d5c5df !important;
-    border-collapse: separate;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-}
-
-.table .top,
-.top,
-th {
-    background: #d9c7e2 !important;
-    color: #594066 !important;
-    border: none !important;
-}
-
-.bottom,
-.bottom a {
-    background: #d9c7e2 !important;
-    color: #594066 !important;
-    border: none !important;
-}
-
-/* Table cells */
-.inner-table .left {
-    background: #e3d6e9 !important;
-    color: #594066 !important;
-    border-radius: 6px !important;
-}
-
-.inner-table .right {
-    background: #faf8fc !important;
-    color: #4d4058 !important;
-    border-radius: 6px !important;
-}
-
-/* Lion image */
-div#lion_image {
-    border-radius: 10px !important;
-    border: 3px solid #c5acd2 !important;
-    box-shadow: none !important;
-    opacity: 1;
-}
-
-/* Cave and mound boxes */
-.cave-grid,
-.mound-grid {
-    background: #e3d6e9 !important;
-    color: #594066 !important;
-    border: 1px solid #cdbbd8 !important;
-    border-radius: 10px !important;
-}
-
-/* Features / dynasty boxes */
-.feature,
-.dynastycollection div div {
-    background: #eee6f3 !important;
-    color: #594066 !important;
-    border: 1px solid #d2c0dc !important;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-}
-
-/* Feature headings */
-.feature h3,
-div.col-md-4 > a > div > h3 {
-    color: #704b82 !important;
-}
-
-/* Remove unnecessary decorations */
-hr {
-    border-color: #d8c9e2 !important;
-}
-
-/* Footer */
-div.container.footer.center.white.visible-lg.visible-md.visible-sm,
-div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-    color: #704b82 !important;
-    text-shadow: none !important;
+/* KEEP THE WHOLE CONTENT AREA PURPLE/LAVENDER */
+.container,
+.container-fluid {
+    color: #4f3b5f;
 }
