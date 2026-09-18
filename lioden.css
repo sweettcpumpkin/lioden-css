@@ -1,0 +1,244 @@
+/* =================================
+   SIMPLE PALE LAVENDER LIODEN THEME
+   ================================= */
+
+/* Page */
+body {
+    background: #eee8f5 !important;
+    color: #4d4058 !important;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* Links */
+a:link,
+a:visited {
+    color: #70458a !important;
+}
+
+a:hover {
+    color: #9569ad !important;
+}
+
+/* Main container */
+.container.main {
+    background: #f8f5fb !important;
+    border: 1px solid #d8c9e2 !important;
+    box-shadow: none !important;
+    border-radius: 12px !important;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+    background: #fcfaff !important;
+    border: 1px solid #cdbbd8 !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    color: #4d4058 !important;
+}
+
+/* Top bar */
+.topbar {
+    background: #cbb5d8 !important;
+    color: #513861 !important;
+    border: 1px solid #bba2ca !important;
+    box-shadow: none !important;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Navigation bar */
+.navbar {
+    background: #b99acb !important;
+    border: none !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar li a {
+    color: #ffffff !important;
+}
+
+.navbar li a:hover {
+    background: #a982bd !important;
+    color: #ffffff !important;
+    border-radius: 6px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: #f3edf7 !important;
+    color: #654875 !important;
+    border: 1px solid #d5c3df !important;
+    border-radius: 8px !important;
+}
+
+.breadcrumb .active {
+    color: #654875 !important;
+}
+
+/* Alerts */
+.alert,
+.alert-warning,
+.alert-danger {
+    background: #e6d9ed !important;
+    border: 1px solid #d2c0dc !important;
+    color: #594066 !important;
+    border-radius: 8px !important;
+}
+
+/* Main heading */
+h1 {
+    font-size: 32px;
+    color: #674579 !important;
+    background: none !important;
+    text-align: center;
+}
+
+/* Other headings */
+h2 {
+    color: #704b82 !important;
+}
+
+h3 {
+    color: #704b82 !important;
+}
+
+.sidebar h3 {
+    background: transparent !important;
+    color: #704b82 !important;
+    font-size: 20px !important;
+}
+
+/* Panels */
+.panel {
+    background: #faf8fc !important;
+    border: 1px solid #d5c5df !important;
+    color: #4d4058 !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+/* Buttons */
+.btn,
+button.button,
+.btn-default,
+input[type="submit"],
+input[type="button"] {
+    background: #ad8bc2 !important;
+    border: 1px solid #9672aa !important;
+    border-radius: 8px !important;
+    text-shadow: none !important;
+    color: #ffffff !important;
+}
+
+.btn:hover,
+button.button:hover,
+.btn-default:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: #9569ad !important;
+    color: #ffffff !important;
+}
+
+/* Progress bars */
+.progress {
+    background: #e2d8e8 !important;
+    color: #4d4058 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+.progress-bar,
+.progress-bar-danger,
+.progress-bar-success {
+    background: #ad8bc2 !important;
+    border-radius: 8px !important;
+}
+
+.progress div {
+    color: #4d4058 !important;
+    font-weight: bold;
+}
+
+/* Tables */
+.table {
+    background: #faf8fc !important;
+    border: 1px solid #d5c5df !important;
+    border-collapse: separate;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.table .top,
+.top,
+th {
+    background: #d9c7e2 !important;
+    color: #594066 !important;
+    border: none !important;
+}
+
+.bottom,
+.bottom a {
+    background: #d9c7e2 !important;
+    color: #594066 !important;
+    border: none !important;
+}
+
+/* Table cells */
+.inner-table .left {
+    background: #e3d6e9 !important;
+    color: #594066 !important;
+    border-radius: 6px !important;
+}
+
+.inner-table .right {
+    background: #faf8fc !important;
+    color: #4d4058 !important;
+    border-radius: 6px !important;
+}
+
+/* Lion image */
+div#lion_image {
+    border-radius: 10px !important;
+    border: 3px solid #c5acd2 !important;
+    box-shadow: none !important;
+    opacity: 1;
+}
+
+/* Cave and mound boxes */
+.cave-grid,
+.mound-grid {
+    background: #e3d6e9 !important;
+    color: #594066 !important;
+    border: 1px solid #cdbbd8 !important;
+    border-radius: 10px !important;
+}
+
+/* Features / dynasty boxes */
+.feature,
+.dynastycollection div div {
+    background: #eee6f3 !important;
+    color: #594066 !important;
+    border: 1px solid #d2c0dc !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+/* Feature headings */
+.feature h3,
+div.col-md-4 > a > div > h3 {
+    color: #704b82 !important;
+}
+
+/* Remove unnecessary decorations */
+hr {
+    border-color: #d8c9e2 !important;
+}
+
+/* Footer */
+div.container.footer.center.white.visible-lg.visible-md.visible-sm,
+div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+    color: #704b82 !important;
+    text-shadow: none !important;
+}
